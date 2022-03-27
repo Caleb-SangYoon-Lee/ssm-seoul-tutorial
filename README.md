@@ -51,3 +51,4 @@
 * 하둡 2.0에서 가장 큰 변화는 HDFS Federation, NameNode HA 그리고 YARN 이라는 리소스 관리 프레임워크의 등장. HDFS, M/R 모두 하나의 어플리케이션으로 기동할 수 있게 됨
 * M/R외에 Graph, MPP 등 다양한 알고리즘 지원
 * 참고 ![[Hadoop v1. vs Haddop v.2]](2022-03-26-Hadoop-2.png)
+* 출처 [[!Edureka]](https://www.edureka.co/blog/hadoop-yarn-tutorial/)
