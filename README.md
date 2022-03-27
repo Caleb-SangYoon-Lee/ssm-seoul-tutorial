@@ -4,7 +4,7 @@
 
 ## 2022-03-26 1일차 내용
 ### 실습환경 구축
-* 링크참조 [[GitHub Page]](https://github.com/psyoblade/docker-for-dummies/tree/master/wsl)
+* 링크참조 [[박수혁 교수님 GitHub Page]](https://github.com/psyoblade/docker-for-dummies/tree/master/wsl)
  * 설치요류시 아래 내용 참고
    * Windows 재시작
    * WSL2 버전 업그레이드 [[Microsoft]](https://docs.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
