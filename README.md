@@ -26,3 +26,28 @@
 ### 데이터 엔지니어링의 역사
 * 데이터 엔지니어링은 현재 Hadoop을 둘러싼 에코시스템의 발전으로 설명하여도 무리가 없을 것이다.
   * 참고 [MAD(Machine Learning, Artificial Intelligence, Data) Landscape 2021](http://46eybw2v1nh52oe80d3bi91u-wpengine.netdna-ssl.com/wp-content/uploads/2021/12/2021-MAD-Landscape-v3.pdf)
+
+### 하둡 시스템소개
+#### 목차
+* 하둡 시스템
+  * 하둡 1.
+  * 하둡 2.
+    * 분산저장 엔진 - HDFS(Hadoop Distributed File System)
+    * 분산처리 엔진 - YARN(Yet Another Resource Negotiator)
+* Q&A
+
+### 하둡 1.
+* 하둡 1.0 - MapReduce(이하 M/R) 기반 분산 저장, 처리 엔진
+  * Map 과 Reduce 함수를 통해 분산 환경에서 다양한 애플리케이션을 구현할 수 있도록 하둡 과 함께 제공 되었던 Java 기반의 프레임워크
+  * 구글이 정보 검색을 위해 데이터 처리(색인어 추출, 역색인 등)를 목적으로 개발된 분산 환경에서의 병렬 데이터 처리 기법이자 프로그래밍 모델
+  * 병렬 처리가 가능한 Map 함수와 집계를 위한 Reduce 함수를 구현하고 이를 조합하여 다양한 애플리케이션을 구현하는 기법
+* 전통적인 데이터 처리방법
+  * 데이터를 직접 가져와서 분할 및 처리한 이후에 모든 데이터를 집계하는 과정을 매번 처리
+* M/R을 이용한 처리방법
+  * 프로그램을 데이터가 있는 각 분산 저장소에 전송하여 Map 과 Reduce 함수를 수행할 수 있는 엔진을 제공
+* Hadoop v1.0은 전통적인 방법에 비해 100% 완전하지는 않지만 분산처리방식의 가능성을 보여줌
+
+### 하둡 2 (HDFS, YARN)
+* 하둡 2.0에서 가장 큰 변화는 HDFS Federation, NameNode HA 그리고 YARN 이라는 리소스 관리 프레임워크의 등장. HDFS, M/R 모두 하나의 어플리케이션으로 기동할 수 있게 됨
+* M/R외에 Graph, MPP 등 다양한 알고리즘 지원
+* 참고 ![[Hadoop v1. vs Haddop v.2]](2022-03-26-Hadoop 2.png)
