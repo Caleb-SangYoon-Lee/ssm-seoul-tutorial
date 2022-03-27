@@ -1,12 +1,13 @@
 # Practical Issues in Data Engineering
+## 실습환경 구축 후 이미지
 ![ssm-seoul](2022-03-26-과제완료-화면캡처.png)
 
 ## 2022-03-26 1일차 내용
 ### 실습환경 구축
-* 링크참조 [GitHub Pages](https://github.com/psyoblade/docker-for-dummies/tree/master/wsl)
+* 링크참조 [[GitHub Page]](https://github.com/psyoblade/docker-for-dummies/tree/master/wsl)
  * 설치요류시 아래 내용 참고
   * Windows 재시작
-  * WSL2 버전 업그레이드 [Microsoft](https://docs.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
+  * WSL2 버전 업그레이드 [[Microsoft]](https://docs.microsoft.com/ko-kr/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
 ### 데이터 엔지니어링 소개
 #### 목차
 * 데이터 엔지니어링
